@@ -1,2 +1,4 @@
 # emr-document-parser
-parse electric medical record document into standard fields and values
+
+Parse EMR(Electric Medical Record) document into standard fields and values.
+
