@@ -144,8 +144,10 @@ disable=print-statement,
         deprecated-sys-function,
         exception-escape,
         comprehension-escape,
-        # 导入由 IDE 检查
+        # 模块与导入由 IDE 检查
         no-name-in-module,
+        import-error,
+        relative-beyond-top-level,
         # 不限制最少方法数
         too-few-public-methods,
 
