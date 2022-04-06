@@ -16,7 +16,7 @@ class BasicModel(BaseModel):
 
     class Config:
         """配置类"""
-        default_type_name = "str"
+        default_type_name = "any"
 
     @root_validator(pre=True)
     def del_none(cls, values: dict):    # pylint: disable=no-self-argument,no-self-use
