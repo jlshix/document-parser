@@ -5,7 +5,7 @@
 
 from pydantic import BaseModel
 
-from .typing import StrSet
+from .types import StrSet
 
 
 class DocumentBase(BaseModel):

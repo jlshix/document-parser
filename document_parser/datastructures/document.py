@@ -10,7 +10,7 @@ from pydantic import BaseModel
 from .basic_model import BasicModel
 from .content import Contents
 from .document_base import DocumentBase
-from .typing import StrSet
+from .types import StrSet
 
 
 class Document(DocumentBase):
